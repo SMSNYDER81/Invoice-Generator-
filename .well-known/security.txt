@@ -1,1 +1,4 @@
-
+Contact: https://github.com/SMSNYDER81/invoiceforge/issues
+Expires: 2027-01-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://invoiceforge.com/.well-known/security.txt
