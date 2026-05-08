@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="InvoiceForge favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#252a2e"/>
+      <stop offset="1" stop-color="#0d0e0f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d58a"/>
+      <stop offset="0.52" stop-color="#c8a96e"/>
+      <stop offset="1" stop-color="#8b6b2e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <rect x="3.5" y="3.5" width="57" height="57" rx="12" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.9"/>
+  <g filter="url(#shadow)">
+    <path d="M19 12h20l8 8v28H19z" fill="#111417" stroke="#e8e4dc" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M39 12v9h8" fill="url(#gold)" stroke="url(#gold)" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M24 31h18M24 38h15M24 45h10" stroke="#e8e4dc" stroke-width="3" stroke-linecap="round" opacity="0.92"/>
+    <text x="25.2" y="27" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="url(#gold)">$</text>
+    <path d="M14 49c9 2 18 1 28-2 2.8-.8 5.7-1.6 8.5-2.1-4 4.8-10.2 8-18.8 9.2-7.3 1-13.4-.4-17.7-5.1z" fill="url(#gold)" opacity="0.95"/>
+    <path d="M27 51h17v4H27z" fill="url(#gold)"/>
+  </g>
+</svg>
