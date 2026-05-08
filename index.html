@@ -3,8 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ResumeForge Invoice Generator — Free, No Account, No Watermark</title>
-<meta name="description" content="Create professional invoices free. No account required, no watermarks, no data leaves your browser. Save clients and rates locally. Download as PDF instantly.">
+<title>InvoiceForge — Free Invoice Generator | No Account, No Watermark</title>
+<meta name="description" content="Create professional invoices free with InvoiceForge. No account required, no watermarks, and no data leaves your browser. Save clients and rates locally and download PDF invoices instantly.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="InvoiceForge — Free Invoice Generator">
+<meta property="og:description" content="Create professional invoices free. No account, no watermark, and no data leaves your browser.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="InvoiceForge — Free Invoice Generator">
+<meta name="twitter:description" content="Create professional invoices free. No account, no watermark, and no data leaves your browser.">
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1131,6 +1138,19 @@ body::before {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+}
+
+.ad-label {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--syne);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text3);
 }
 
 .ad-leaderboard {
@@ -1142,10 +1162,6 @@ body::before {
   min-height: 250px;
 }
 
-.ad-native {
-  margin: 8px auto 32px;
-  min-height: 90px;
-}
 
 .ad-mobile-banner {
   display: none;
@@ -1229,6 +1245,7 @@ body::before {
 
 <!-- TOP LEADERBOARD AD -->
 <div class="ad-section ad-slot ad-leaderboard" aria-label="Advertisement">
+  <span class="ad-label">Advertisement</span>
   <script>
     atOptions = {
       'key' : '0eb533662aa5e100c8cab098e38ff30c',
@@ -1528,12 +1545,6 @@ body::before {
     </div>
 
   </div>
-</div>
-
-<!-- NATIVE AD -->
-<div class="ad-section ad-slot ad-native" aria-label="Advertisement">
-  <script async="async" data-cfasync="false" src="https://pl29370083.profitablecpmratenetwork.com/a264bcefbda4402b671d5afd33fd66a4/invoke.js"></script>
-  <div id="container-a264bcefbda4402b671d5afd33fd66a4"></div>
 </div>
 
 <!-- CSV IMPORT MODAL -->
